@@ -53,7 +53,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
+    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black">
       {/* Navigation */}
       <nav className="fixed top-0 w-full z-50 glass-effect">
         <div className="max-w-7xl mx-auto section-padding py-4">
@@ -63,7 +63,7 @@ export default function Home() {
               animate={{ opacity: 1, x: 0 }}
               className="flex items-center space-x-2"
             >
-              <FaRobot className="w-8 h-8 text-purple-400" />
+              <FaRobot className="w-8 h-8 text-yellow-400" />
               <span className="text-2xl font-bold gradient-text">Nidum AI</span>
             </motion.div>
             
@@ -83,7 +83,7 @@ export default function Home() {
               animate={{ opacity: 1, scale: 1 }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-2 rounded-full font-semibold hover:shadow-lg transition-shadow"
+              className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-black px-6 py-2 rounded-full font-semibold hover:shadow-lg transition-shadow"
             >
               Get Started
             </motion.button>
@@ -111,7 +111,7 @@ export default function Home() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-xl transition-shadow flex items-center justify-center space-x-2"
+                className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-black px-8 py-4 rounded-full font-semibold text-lg hover:shadow-xl transition-shadow flex items-center justify-center space-x-2"
               >
                 <span>Start Free Trial</span>
                 <FiArrowRight />
@@ -132,7 +132,7 @@ export default function Home() {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="relative"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 blur-3xl opacity-30 rounded-full"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-yellow-600 blur-3xl opacity-30 rounded-full"></div>
               <div className="relative glass-effect rounded-2xl p-8 max-w-4xl mx-auto float-animation">
                 <img
                   src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop"
@@ -172,7 +172,7 @@ export default function Home() {
                 transition={{ delay: index * 0.1 }}
                 className="glass-effect rounded-2xl p-6 hover-scale"
               >
-                <div className="text-purple-400 mb-4">{feature.icon}</div>
+                <div className="text-yellow-400 mb-4">{feature.icon}</div>
                 <h3 className="text-xl font-semibold text-white mb-2">{feature.title}</h3>
                 <p className="text-gray-300">{feature.description}</p>
               </motion.div>
@@ -208,26 +208,26 @@ export default function Home() {
                 transition={{ delay: index * 0.1 }}
                 className={`relative rounded-2xl p-8 ${
                   plan.popular
-                    ? "bg-gradient-to-br from-purple-600 to-pink-600"
+                    ? "bg-gradient-to-br from-yellow-400 to-yellow-600"
                     : "glass-effect"
                 } hover-scale`}
               >
                 {plan.popular && (
-                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-gray-900 px-4 py-1 rounded-full text-sm font-semibold">
+                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-black text-yellow-400 px-4 py-1 rounded-full text-sm font-semibold">
                     Most Popular
                   </div>
                 )}
                 
-                <h3 className="text-2xl font-bold text-white mb-2">{plan.name}</h3>
-                <div className="text-4xl font-bold text-white mb-6">
+                <h3 className={`text-2xl font-bold mb-2 ${plan.popular ? "text-black" : "text-white"}`}>{plan.name}</h3>
+                <div className={`text-4xl font-bold mb-6 ${plan.popular ? "text-black" : "text-white"}`}>
                   {plan.price}
                   {plan.price !== "Custom" && <span className="text-lg font-normal">/month</span>}
                 </div>
                 
                 <ul className="space-y-3 mb-8">
                   {plan.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="flex items-center text-gray-200">
-                      <FiCheck className="w-5 h-5 mr-2 text-green-400" />
+                    <li key={featureIndex} className={`flex items-center ${plan.popular ? "text-black" : "text-gray-200"}`}>
+                      <FiCheck className={`w-5 h-5 mr-2 ${plan.popular ? "text-black" : "text-green-400"}`} />
                       {feature}
                     </li>
                   ))}
@@ -235,8 +235,8 @@ export default function Home() {
                 
                 <button className={`w-full py-3 rounded-full font-semibold transition-colors ${
                   plan.popular
-                    ? "bg-white text-purple-600 hover:bg-gray-100"
-                    : "bg-gradient-to-r from-purple-600 to-pink-600 text-white hover:shadow-lg"
+                    ? "bg-black text-yellow-400 hover:bg-gray-900"
+                    : "bg-gradient-to-r from-yellow-400 to-yellow-600 text-black hover:shadow-lg"
                 }`}>
                   Get Started
                 </button>
@@ -285,7 +285,7 @@ export default function Home() {
             </div>
             
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-pink-600 blur-3xl opacity-30 rounded-full"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-yellow-600 blur-3xl opacity-30 rounded-full"></div>
               <img
                 src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=600&h=400&fit=crop"
                 alt="AI Team"
@@ -322,7 +322,7 @@ export default function Home() {
               />
               <button
                 type="submit"
-                className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-shadow"
+                className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-black px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-shadow"
               >
                 Subscribe
               </button>
@@ -355,7 +355,7 @@ export default function Home() {
               viewport={{ once: true }}
               className="glass-effect rounded-2xl p-6 text-center hover-scale"
             >
-              <FiMail className="w-8 h-8 text-purple-400 mx-auto mb-4" />
+              <FiMail className="w-8 h-8 text-yellow-400 mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-white mb-2">Email</h3>
               <p className="text-gray-300">hello@nidumai.com</p>
             </motion.div>
@@ -367,7 +367,7 @@ export default function Home() {
               transition={{ delay: 0.1 }}
               className="glass-effect rounded-2xl p-6 text-center hover-scale"
             >
-              <FiPhone className="w-8 h-8 text-purple-400 mx-auto mb-4" />
+              <FiPhone className="w-8 h-8 text-yellow-400 mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-white mb-2">Phone</h3>
               <p className="text-gray-300">+1 (555) 123-4567</p>
             </motion.div>
@@ -379,7 +379,7 @@ export default function Home() {
               transition={{ delay: 0.2 }}
               className="glass-effect rounded-2xl p-6 text-center hover-scale"
             >
-              <FiMapPin className="w-8 h-8 text-purple-400 mx-auto mb-4" />
+              <FiMapPin className="w-8 h-8 text-yellow-400 mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-white mb-2">Location</h3>
               <p className="text-gray-300">San Francisco, CA</p>
             </motion.div>
@@ -392,7 +392,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <FaRobot className="w-6 h-6 text-purple-400" />
+              <FaRobot className="w-6 h-6 text-yellow-400" />
               <span className="text-xl font-bold gradient-text">Nidum AI</span>
             </div>
             

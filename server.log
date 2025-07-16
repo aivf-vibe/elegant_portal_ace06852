@@ -1,0 +1,182 @@
+nohup: ignoring input
+
+> elegant_portal_ace06852@0.1.0 dev
+> next dev --turbopack --port 52615 --hostname 0.0.0.0
+
+   ▲ Next.js 15.4.1 (Turbopack)
+   - Local:        http://localhost:52615
+   - Network:      http://0.0.0.0:52615
+
+ ✓ Starting...
+ ✓ Ready in 592ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1371ms
+ GET / 200 in 1617ms
+ GET / 200 in 67ms
+ GET / 200 in 89ms
+ GET / 200 in 94ms
+ GET / 200 in 84ms
+ GET / 200 in 63ms
+ GET / 200 in 68ms
+ GET / 200 in 64ms
+ GET / 200 in 64ms
+ GET / 200 in 59ms
+ GET / 200 in 60ms
+ GET / 200 in 51ms
+ GET / 200 in 53ms
+ GET / 200 in 42ms
+ GET / 200 in 48ms
+ GET / 200 in 43ms
+ GET / 200 in 49ms
+ GET / 200 in 51ms
+ GET / 200 in 68ms
+ GET / 200 in 50ms
+ GET / 200 in 55ms
+ GET / 200 in 67ms
+ GET / 200 in 67ms
+ GET / 200 in 49ms
+ GET / 200 in 69ms
+ GET / 200 in 48ms
+ GET / 200 in 49ms
+ GET / 200 in 70ms
+ GET / 200 in 69ms
+ GET / 200 in 53ms
+ GET / 200 in 64ms
+ GET / 200 in 54ms
+ GET / 200 in 62ms
+ GET / 200 in 63ms
+ GET / 200 in 48ms
+ GET / 200 in 51ms
+ GET / 200 in 60ms
+ GET / 200 in 51ms
+ GET / 200 in 57ms
+ GET / 200 in 60ms
+ GET / 200 in 49ms
+ GET / 200 in 59ms
+ GET / 200 in 61ms
+ GET / 200 in 47ms
+ GET / 200 in 37ms
+ GET / 200 in 62ms
+ GET / 200 in 50ms
+ GET / 200 in 76ms
+ GET / 200 in 74ms
+ GET / 200 in 63ms
+ GET / 200 in 72ms
+ GET / 200 in 51ms
+ GET / 200 in 43ms
+ GET / 200 in 62ms
+ GET / 200 in 51ms
+ GET / 200 in 64ms
+ GET / 200 in 62ms
+ GET / 200 in 43ms
+ GET / 200 in 53ms
+ GET / 200 in 52ms
+ GET / 200 in 55ms
+ GET / 200 in 53ms
+ GET / 200 in 42ms
+ GET / 200 in 60ms
+ GET / 200 in 62ms
+ GET / 200 in 68ms
+ GET / 200 in 64ms
+ GET / 200 in 63ms
+ GET / 200 in 58ms
+ GET / 200 in 54ms
+ ✓ Compiled /favicon.ico in 96ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 355ms
+ GET / 200 in 79ms
+ GET / 200 in 80ms
+ GET / 200 in 55ms
+ GET / 200 in 55ms
+ GET / 200 in 49ms
+ GET / 200 in 62ms
+ GET / 200 in 59ms
+ GET / 200 in 67ms
+ GET / 200 in 66ms
+ GET / 200 in 70ms
+ GET / 200 in 66ms
+ GET / 200 in 59ms
+ GET / 200 in 57ms
+ GET / 200 in 53ms
+ GET / 200 in 67ms
+ GET / 200 in 56ms
+ GET / 200 in 61ms
+ GET / 200 in 64ms
+ GET / 200 in 58ms
+ GET / 200 in 54ms
+ GET / 200 in 62ms
+ GET / 200 in 58ms
+ GET / 200 in 48ms
+ GET / 200 in 66ms
+ GET / 200 in 62ms
+ GET / 200 in 45ms
+ GET / 200 in 51ms
+ GET / 200 in 52ms
+ GET / 200 in 41ms
+ GET / 200 in 45ms
+ GET / 200 in 50ms
+ GET / 200 in 44ms
+ GET / 200 in 49ms
+ GET / 200 in 56ms
+ GET / 200 in 48ms
+ GET / 200 in 60ms
+ GET / 200 in 57ms
+ GET / 200 in 56ms
+ GET / 200 in 58ms
+ ✓ Compiled in 58ms
+ GET / 200 in 57ms
+ GET / 200 in 57ms
+ ✓ Compiled in 67ms
+ GET / 200 in 256ms
+ GET / 200 in 76ms
+ ✓ Compiled in 67ms
+ GET / 200 in 234ms
+ ✓ Compiled in 60ms
+ GET / 200 in 192ms
+ ✓ Compiled in 56ms
+ GET / 200 in 177ms
+ GET / 200 in 75ms
+ GET / 200 in 87ms
+ GET / 200 in 71ms
+ ✓ Compiled in 57ms
+ ✓ Compiled in 58ms
+ GET / 200 in 178ms
+ GET / 200 in 83ms
+ ✓ Compiled in 61ms
+ GET / 200 in 182ms
+ GET / 200 in 85ms
+ ✓ Compiled in 64ms
+ GET / 200 in 186ms
+ GET / 200 in 86ms
+ GET / 200 in 81ms
+ GET / 200 in 83ms
+ GET / 200 in 79ms
+ GET / 200 in 82ms
+ ✓ Compiled in 60ms
+ ✓ Compiled in 57ms
+ GET / 200 in 188ms
+ GET / 200 in 83ms
+ GET / 200 in 71ms
+ GET / 200 in 80ms
+ ✓ Compiled in 68ms
+ GET / 200 in 177ms
+ GET / 200 in 93ms
+ GET / 200 in 91ms
+ GET / 200 in 80ms
+ ✓ Compiled in 62ms
+ ✓ Compiled in 58ms
+ GET / 200 in 196ms
+ GET / 200 in 86ms
+ GET / 200 in 88ms
+ GET / 200 in 86ms
+ ✓ Compiled in 58ms
+ ✓ Compiled in 62ms
+ GET / 200 in 201ms
+ GET / 200 in 87ms
+ ✓ Compiled in 58ms
+ GET / 200 in 197ms
+ GET / 200 in 87ms
+ GET / 200 in 76ms
+ ✓ Compiled in 59ms
+ GET / 200 in 182ms
+ GET / 200 in 103ms
+ GET / 200 in 86ms
